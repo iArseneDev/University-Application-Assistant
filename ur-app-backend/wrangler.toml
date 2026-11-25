@@ -23,7 +23,7 @@ enabled = false
 persist = true
 head_sampling_rate = 1
 
-[[vars]]
+[vars]
 ADMIN_EMAIL="admin@applicationgate.com"
 # Set JWT_SECRET, ADMIN_EMAIL, and ADMIN_PASSWORD with `wrangler secret put`.
 # Never put credentials or signing keys in this file.
