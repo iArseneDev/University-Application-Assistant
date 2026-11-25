@@ -1,4 +1,4 @@
-name = "uni-admission-backend"
+name = "university-application-assistant"
 main = "src/index.ts"
 compatibility_date = "2025-01-01"
 compatibility_flags = ["nodejs_compat"]
@@ -23,6 +23,8 @@ enabled = false
 persist = true
 head_sampling_rate = 1
 
+[[vars]]
+ADMIN_EMAIL="admin@applicationgate.com"
 # Set JWT_SECRET, ADMIN_EMAIL, and ADMIN_PASSWORD with `wrangler secret put`.
 # Never put credentials or signing keys in this file.
 
