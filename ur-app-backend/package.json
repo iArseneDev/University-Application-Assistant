@@ -16,7 +16,8 @@
     "hono": "^4.4.12",
     "jose": "^6.2.3",
     "jsonwebtoken": "^9.0.2",
-    "pg": "^8.12.0"
+    "pg": "^8.12.0",
+    "wrangler": "^4.168.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260702.1",
