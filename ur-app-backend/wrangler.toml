@@ -1,0 +1,28 @@
+name = "uni-admission-backend"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ur-app-db"
+database_id = "dda0206f-3fba-436e-b010-63d4d1293668" 
+
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
+persist = true
+head_sampling_rate = 1
+
+# Set JWT_SECRET, ADMIN_EMAIL, and ADMIN_PASSWORD with `wrangler secret put`.
+# Never put credentials or signing keys in this file.
+
