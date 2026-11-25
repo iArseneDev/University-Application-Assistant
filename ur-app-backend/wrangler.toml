@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "ur-app-db"
-database_id = "dda0206f-3fba-436e-b010-63d4d1293668" 
+database_id = "acd3e4e7-74f5-4dff-a9f4-af57a8dfd21d" 
 
 [observability]
 enabled = false
