@@ -1,6 +1,6 @@
-# UR App
+# University Application Assistant
 
-UR App is a university admission portal for students and administrators. It includes a public information site, student application dashboard, admin console, and a JSON API.
+University Application Assistant is a university admission portal for students and administrators. It includes a public information site, student application dashboard, admin console, and a JSON API.
 
 ## Project structure
 
